@@ -38,8 +38,6 @@ public class MainActivity extends AppCompatActivity {
         itemList.add(new Item("2", "Caramel"));
         itemList.add(new Item("3", "Hazelnut"));
         itemList.add(new Item("4", "Chocolate"));
-        itemList.add(new Item("5", "Orange"));
-        itemList.add(new Item("6", "Strawberry"));
 
         // Set Adapter
         adapter = new MyAdapter(itemList);
